@@ -74,16 +74,24 @@ let resumeData = {
     "skillsDescription":"Major Skills",
     "skills":[
       {
-        "skillname":"Laravel"
+        "skillname":"Laravel",
+        "percent" : "80"
       },
       {
-        "skillname":"Android"
+        "skillname":"Wordpress",
+        "percent" : "90"
       },
       {
-        "skillname":"Java"
+        "skillname":"Android",
+        "percent" : "55"
       },
       {
-        "skillname":"Adobe Photoshop"
+        "skillname":"Java",
+        "percent" : "70"
+      },
+      {
+        "skillname":"Adobe Photoshop",
+        "percent" : "60"
       }
     ],
     "portfolio":[
