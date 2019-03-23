@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Software Developer",
     "linkedinId":"https://www.linkedin.com/in/lakshayverma/",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "I like to work with database designs and backend. Also tweaking designs of images, websites is a hobby when not watching movies or playing games.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -20,9 +20,19 @@ let resumeData = {
           "name":"twitter",
           "url":"http://twitter.com/lakshay__verma",
           "className":"fa fa-twitter"
+        },
+        {
+          "name":"instagram",
+          "url":"http://instagram.com/lakshay__verma",
+          "className":"fa fa-instagram"
+        },
+        {
+          "name":"blog",
+          "url":"http://blog.lakshay.dev",
+          "className":"fa fa-edit"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am a developer by profession. Who like to see things through and loves to code. Watching anime, netflix and movies is a part time hobby apart from going out in the wild.",
     "address":"India",
     "website":"https://lakshay.dev",
     "education":[
