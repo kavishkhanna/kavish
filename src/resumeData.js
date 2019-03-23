@@ -127,7 +127,7 @@ let resumeData = {
         "name":"Pawanjot Singh"
       },
       {
-        "description":"Awesome application, you nailed the graphics for the birdy.",
+        "description":"Awesome application, you nailed the graphics for the birdy. Keep going forward.",
         "name":"Simran Singh Sandhu"
       }
     ]
