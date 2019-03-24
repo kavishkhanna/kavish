@@ -54,7 +54,7 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"Walkwel Technology",
-        "specialization":"Web Development and Datbases",
+        "specialization":"Web Development and Databases",
         "MonthOfLeaving":"-",
         "YearOfLeaving":"Present",
         "Achievements":"PHP, Laravel, AWS, Click Funnels, Infusionsoft"
