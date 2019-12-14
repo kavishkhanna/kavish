@@ -10,7 +10,7 @@ export default class Footer extends Component {
             {
               resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
                 return(
-                  <li>
+                  <li key={item.id}>
                     <a href={item.url}>
                     <i className={item.className} />
                     </a>
@@ -19,7 +19,7 @@ export default class Footer extends Component {
               })
             }
           </ul>
-          
+
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
       </div>
