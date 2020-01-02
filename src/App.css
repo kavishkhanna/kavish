@@ -30,3 +30,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+ul.skills span.skill-level {
+  color: white;
+
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.96rem;
+  letter-spacing: 0.13rem;
+}
