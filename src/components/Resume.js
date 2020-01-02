@@ -78,9 +78,7 @@ export default class Resume extends Component {
                     return (
                       <li key={item.map}>
                         <span
-                          className={`bar-expand ${item.skillname.toLowerCase()} percent-${
-                            item.percent
-                          }`}
+                          className={`bar-expand ${item.skillname.toLowerCase()} percent-${item.percent}`}
                         ></span>
                         <em>{item.skillname}</em>
                       </li>
