@@ -4,7 +4,7 @@ let resumeData = {
   "role": "Software Engineer",
   "linkedinId": "https://www.linkedin.com/in/lakshayverma/",
   "skypeid": "lk7253",
-  "roleDescription": "I like to work with database designs and backend. Also tweaking designs of images, websites is a hobby when not watching movies or playing games.",
+  "roleDescription": "Working on with database designs and services using Laravel and its ecosystem. Also tweaking websites is a hobby when not on a mission to mars.",
   "socialLinks": [
     {
       "id": 1,
@@ -37,7 +37,7 @@ let resumeData = {
       "className": "fa fa-edit"
     }
   ],
-  "aboutme": "I am a developer by profession. Who like to see things through and loves to code. Watching anime, netflix and movies is a part time hobby apart from going out in the wild.",
+  "aboutme": "Working with Technology since 2010, I have achieved keen interest in application of various languages such as Java, PHP and JavaScript. Along with knowledge about tech stacks such as Laravel, Wordpress, GatsBy, Jigsaw and SASS.",
   "address": "India",
   "website": "https://lakshay.dev",
   "education": [
