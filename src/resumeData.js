@@ -134,6 +134,33 @@ let resumeData = {
   "portfolioDescription": "These are some of the jobs building my Portfolio Strong.",
   "portfolio": [
     {
+      "id": 6,
+      "name": "Heart Monitoriing and Reporting",
+      "description": "A Laravel application to allow Cardiac Centers to generate reports and keep track of a patient's condition through out the years.",
+      "imgurl": "../images/lms.png",
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "Node",
+        "ReactJS",
+        "SCSS"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Headless Wordpress",
+      "description": "Wordpress as an CMS at its best, using NextJS as the frontend to allow better SEO for entire site with dynamic sitemaps. Also keeping most of the components alive during page loads.",
+      "imgurl": "../images/lms.png",
+      "technologies": [
+        "PHP",
+        "Wordpress",
+        "NextJS",
+        "ReactJS",
+        "Analytics",
+        "SCSS"
+      ]
+    },
+    {
       "id": 1,
       "name": "Learning Management System",
       "description": "Laravel Application that offers complete suite of Student to Trainer interaction towards course completion.",
@@ -141,7 +168,7 @@ let resumeData = {
       "technologies": [
         "PHP",
         "Laravel",
-        "NPM",
+        "Webpack",
         "SCSS"
       ]
     },
