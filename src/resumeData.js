@@ -173,6 +173,11 @@ let resumeData = {
       "id": 2,
       "name": "Simran Singh Sandhu",
       "description": "Awesome application, you nailed the graphics for the birdy. Keep going forward."
+    },
+    {
+      "id": 3,
+      "name": "Rachna Naaz",
+      "description": "The work done on my Healing and Tarot landing site is exactly how I invisioned it."
     }
   ]
 }
