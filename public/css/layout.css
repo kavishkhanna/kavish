@@ -1036,10 +1036,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
+   background: linear-gradient(180deg, #232323, #0f0f0f);
+   padding-top: 104px;
+   padding-bottom: 72px;
+   color: #89908f;
 }
 
 #contact .section-head {
@@ -1084,7 +1084,7 @@ call-to-action .button {
 }
 
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 18px/36px 'librebaskerville-italic', serif;
    padding-right: 3%;
 }
 

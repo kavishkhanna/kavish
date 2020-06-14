@@ -7,18 +7,9 @@ export default class ContactUs extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me for any work or suggestions below
+                Tests whether in real life or programming, doesn't make us slow or weak. Instead they make path for us to become stronger and better than ever.
               </p>
             </div>
-          </div>
-          <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>
-                  LinkedIn : <a href={resumeData.linkedinId}>{resumeData.linkedinId}</a>
-                </h4>
-              </div>
-            </aside>
           </div>
         </section>
         );
