@@ -131,36 +131,63 @@ let resumeData = {
       "level": "moderate"
     }
   ],
+  "portfolioDescription": "These are some of the jobs building my Portfolio Strong.",
   "portfolio": [
     {
       "id": 1,
       "name": "Learning Management System",
       "description": "Laravel Application that offers complete suite of Student to Trainer interaction towards course completion.",
-      "imgurl": "../images/lms.png"
+      "imgurl": "../images/lms.png",
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "NPM",
+        "SCSS"
+      ]
     },
     {
       "id": 2,
       "name": "Amaze Yourself",
       "description": "Mobile application based on a concept that amazes.",
-      "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/amaze-your-self-logo.png"
+      "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/amaze-your-self-logo.png",
+      "technologies": [
+        "Photoshop",
+        "Android",
+        "Unity 3d",
+        "Java"
+      ]
     },
     {
       "id": 3,
       "name": "MarG",
       "description": "Unity Mobile Game where users need to navigate through a series of mazes to reach goal.",
-      "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/marg-logo.png"
+      "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/marg-logo.png",
+      "technologies": [
+        "Unity 3d",
+        "Blender",
+        "Photoshop"
+      ]
     },
     {
       "id": 4,
       "name": "Baani Nitnem",
       "description": "Mobile application that helps in saying daily prayers.",
-      "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/baani-nitnem-wide.png"
+      "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/baani-nitnem-wide.png",
+      "technologies": [
+        "C#",
+        "Photoshop",
+        "Java"
+      ]
     },
     {
       "id": 5,
       "name": "Birdy Blue",
       "description": "Unity Mobile Game.",
-      "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/birdy-blue-wide.png"
+      "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/birdy-blue-wide.png",
+      "technologies": [
+        "Photoshop",
+        "Unity 3d"
+      ]
     }
   ],
   "testimonials": [
