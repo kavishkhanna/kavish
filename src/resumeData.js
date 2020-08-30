@@ -262,30 +262,6 @@ let resumeData = {
   "interestsDescription": "While not working on Jobs, I take my sweet time to enjoy the little pleasures of Life.",
   "interests": [
     {
-      "id": 6,
-      "name": "Chess",
-      "description": "A decent game of chess with peers always cheers one up.",
-      "stats": [
-        "Logic",
-        "Reasoning",
-        "Asthetics",
-        "Beauty",
-        "Concept"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Rubix Cube",
-      "description": "Deemed one of the most colorful puzzels of all time, I love working my way through the standard 3x3 Cube.",
-      "stats": [
-        "Beauty",
-        "Machenism",
-        "Appeal",
-        "Logic",
-        "Analytics"
-      ]
-    },
-    {
       "id": 1,
       "name": "Music",
       "description": "Listening to the mesmerizing notes keeps you going on and on through the journey.",
@@ -309,6 +285,33 @@ let resumeData = {
       "name": "Socializing",
       "description": "Keeping in touch with others is a good start for a healthy life.",
       "stats": [
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rubix Cube",
+      "description": "Deemed one of the most colorful puzzels of all time, I love working my way through the standard 3x3 Cube.",
+      "stats": [
+        "Beauty",
+        "Machenism",
+        "Appeal",
+        "Logic",
+        "Analytics"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chess",
+      "description": "A decent game of chess with peers makes me going. Though I am not an expert in the game, still 8x8 board has something about it.",
+      "stats": [
+        "Reasoning",
+        "Rook",
+        "Logic",
+        "Beauty",
+        "Bishop",
+        "Concept",
+        "Asthetics",
+        "Knight"
       ]
     }
   ],
