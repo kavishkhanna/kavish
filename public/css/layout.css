@@ -304,33 +304,33 @@ ul#nav li.current a {
 /* g. Jobs
 /* ------------------------------------------------------------------ */
 
-#jobs {
+.jobs-container {
    background: var(--color-light);
    padding: 90px 0 18px;
 }
 
-#jobs h1 {
+.jobs-container h1 {
    font: 18px/24px "opensans-bold", sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
 
-#jobs h1 span {
+.jobs-container h1 span {
    border-bottom: 3px solid var(--color-accent-2);
    padding-bottom: 6px;
 }
 
-#jobs p.info {
+.jobs-container p.info {
    margin-bottom: 8px;
 }
 
-#jobs .text-title {
+.jobs-container .text-title {
    color: var(--color-dark-tone-1);
    font-size: 1em;
    border-bottom: 2px solid #9e9e9e;
 }
 
-#jobs .row .item {
+.jobs-container .row .item {
    margin-bottom: 24px;
    border-bottom: 1px solid #efefef;
    padding-bottom: 12px;

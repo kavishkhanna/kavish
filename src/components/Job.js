@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 export default class Job extends Component {
   render() {
-    const { id = "jobs", items = [], description = "" } = this.props;
+    const { id = "jobs", title= "Jobs", items = [], description = "" } = this.props;
     return (
-      <section id={id}>
+      <section id={id} className="jobs-container">
         <div className="row portfolio">
           <div className="three columns header-col">
             <h1>
-              <span>Jobs</span>
+              <span>{title}</span>
             </h1>
           </div>
 
@@ -25,9 +25,9 @@ export default class Job extends Component {
                         </p>
                         <div className="stat-pills-container">
                           {
-                            item.technologies && item.technologies.map((tech) => {
+                            item.stats && item.stats.map((tech) => {
                               return (
-                                <span key={`job-technology_${item.id}-${tech}`} className="stat-pill">{tech}</span>
+                                <span key={`${id}-technology_${item.id}-${tech}`} className="stat-pill">{tech}</span>
                               );
                             })
                           }

@@ -163,7 +163,7 @@ let resumeData = {
       "name": "Heart Monitoriing and Reporting",
       "description": "A Laravel application to allow Cardiac Centers to generate reports and keep track of a patient's condition through out the years.",
       "imgurl": "../images/lms.png",
-      "technologies": [
+      "stats": [
         "PHP",
         "Laravel",
         "Node",
@@ -176,7 +176,7 @@ let resumeData = {
       "name": "Headless Wordpress",
       "description": "Wordpress as an CMS at its best, using NextJS as the frontend to allow better SEO for entire site with dynamic sitemaps. Also keeping most of the components alive during page loads.",
       "imgurl": "../images/lms.png",
-      "technologies": [
+      "stats": [
         "PHP",
         "Wordpress",
         "NextJS",
@@ -190,7 +190,7 @@ let resumeData = {
       "name": "Learning Management System",
       "description": "Laravel Application that offers complete suite of Student to Trainer interaction towards course completion.",
       "imgurl": "../images/lms.png",
-      "technologies": [
+      "stats": [
         "PHP",
         "Laravel",
         "Webpack",
@@ -202,7 +202,7 @@ let resumeData = {
       "name": "Amaze Yourself",
       "description": "Mobile application based on a concept that amazes.",
       "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/amaze-your-self-logo.png",
-      "technologies": [
+      "stats": [
         "Photoshop",
         "Android",
         "Unity 3d",
@@ -214,7 +214,7 @@ let resumeData = {
       "name": "MarG",
       "description": "Unity Mobile Game where users need to navigate through a series of mazes to reach goal.",
       "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/marg-logo.png",
-      "technologies": [
+      "stats": [
         "Unity 3d",
         "Blender",
         "Photoshop"
@@ -225,7 +225,7 @@ let resumeData = {
       "name": "Baani Nitnem",
       "description": "Mobile application that helps in saying daily prayers.",
       "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/baani-nitnem-wide.png",
-      "technologies": [
+      "stats": [
         "C#",
         "Photoshop",
         "Java"
@@ -236,7 +236,7 @@ let resumeData = {
       "name": "Birdy Blue",
       "description": "Unity Mobile Game.",
       "imgurl": "https://blog.lakshay.dev/wp-content/uploads/2015/11/birdy-blue-wide.png",
-      "technologies": [
+      "stats": [
         "Photoshop",
         "Unity 3d"
       ]
@@ -258,7 +258,60 @@ let resumeData = {
       "name": "Rachna Naaz",
       "description": "The site speaks to me with such a soothing color and font selection. You did a great job, I am so humbled."
     }
-  ]
+  ],
+  "interestsDescription": "While not working on Jobs, I take my sweet time to enjoy the little pleasures of Life.",
+  "interests": [
+    {
+      "id": 6,
+      "name": "Chess",
+      "description": "A decent game of chess with peers always cheers one up.",
+      "stats": [
+        "Logic",
+        "Reasoning",
+        "Asthetics",
+        "Beauty",
+        "Concept"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rubix Cube",
+      "description": "Deemed one of the most colorful puzzels of all time, I love working my way through the standard 3x3 Cube.",
+      "stats": [
+        "Beauty",
+        "Machenism",
+        "Appeal",
+        "Logic",
+        "Analytics"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Music",
+      "description": "Listening to the mesmerizing notes keeps you going on and on through the journey.",
+      "stats": [
+        "Soothing"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Anime",
+      "description": "Anime is not cartoon, but entry to a world full of surprises and learnings.",
+      "stats": [
+        "Mystery",
+        "Suspense",
+        "Magic",
+        "New World"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Socializing",
+      "description": "Keeping in touch with others is a good start for a healthy life.",
+      "stats": [
+      ]
+    }
+  ],
 }
 
 export default resumeData

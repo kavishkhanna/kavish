@@ -21,6 +21,7 @@ class App extends Component {
         <Job items={resumeData.portfolio} description={resumeData.portfolioDescription} />
         <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
+        <Job id="interests" title="Interests" items={resumeData.interests} description={resumeData.interestsDescription} />
         <Footer resumeData={resumeData}/>
       </div>
     );
