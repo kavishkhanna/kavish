@@ -289,7 +289,7 @@ let resumeData = {
     },
     {
       "id": 7,
-      "name": "Rubix Cube",
+      "name": "Rubik's Cube",
       "description": "Deemed one of the most colorful puzzels of all time, I love working my way through the standard 3x3 Cube.",
       "stats": [
         "Beauty",
