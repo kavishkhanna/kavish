@@ -255,7 +255,7 @@ let resumeData = {
     {
       "id": 3,
       "name": "Rachna Naaz",
-      "description": "The work done on my Healing and Tarot landing site is exactly how I invisioned it."
+      "description": "The site speaks to me with such a soothing color and font selection. You did a great job, I am so humbled."
     }
   ]
 }
