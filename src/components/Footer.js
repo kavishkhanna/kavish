@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    const year = new Date();
     return (
       <footer>
       <div className="row">
@@ -19,9 +20,10 @@ export default class Footer extends Component {
               })
             }
           </ul>
-
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+
+          <small>Copyright {year.getFullYear()} | {resumeData.name}</small>
       </div>
     </footer>
     );
