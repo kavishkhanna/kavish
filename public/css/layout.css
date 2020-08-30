@@ -18,13 +18,27 @@
 
 ===================================================================== */
 
+:root {
+   --color-accent: #11abb2;
+   --color-accent-2: #0d7e82;
+   --color-accent-3: #0f9095;
+   --color-light: #fff3e7;
+   --color-dark: #0f0f0f;
+   --color-dark-tone-1: #091925;
+   --color-base: #161415;
+   --color-base-tone-1: #091925;
+   --color-base-tone-2: #0e2439;
+}
+
+
 /* ------------------------------------------------------------------ */
 
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
 body {
-   background: #0f0f0f;
+   background: var(--color-light);
+   color: var(--color-dark);
 }
 
 /* ------------------------------------------------------------------ */
@@ -37,7 +51,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.svg) no-repeat top center;
+   background: var(--color-base) url(../images/header-background.svg) no-repeat top center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
    text-align: center;
@@ -114,7 +128,7 @@ header .social li a {
 }
 
 header .social li a:hover {
-   color: #11abb0;
+   color: var(--color-accent-2);
 }
 
 /* scrolldown link */
@@ -139,7 +153,7 @@ header .scrolldown a {
 }
 
 header .scrolldown a:hover {
-   color: #11abb0;
+   color: var(--color-accent-2);
 }
 
 /* primary navigation
@@ -169,7 +183,7 @@ header .scrolldown a:hover {
 }
 
 .opaque {
-   background-color: #333;
+   background-color: var(--color-base-tone-1);
 }
 
 /* hide toggle button */
@@ -214,7 +228,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-   color: #f06000;
+   color: var(--color-accent);
 }
 
 /* ------------------------------------------------------------------ */
@@ -223,7 +237,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2b2b2b;
+   background: var(--color-base-tone-2);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -236,7 +250,7 @@ ul#nav li.current a {
 
 #about a:hover,
 #about a:focus {
-   color: #11abb0;
+   color: var(--color-accent-2);
 }
 
 #about h2 {
@@ -247,7 +261,7 @@ ul#nav li.current a {
 
 #about p {
    line-height: 30px;
-   color: #7a7a7a;
+   color: var(--color-light);
 }
 
 #about .profile-pic {
@@ -277,7 +291,7 @@ ul#nav li.current a {
 
 #about .download .button:hover {
    background: #fff;
-   color: #2b2b2b;
+   color: var(--color-base-tone-2);
 }
 
 #about .download .button i {
@@ -290,7 +304,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #jobs {
-   background: #fff3e7;
+   background: var(--color-light);
    padding: 90px 0 18px;
 }
 
@@ -301,7 +315,7 @@ ul#nav li.current a {
 }
 
 #jobs h1 span {
-   border-bottom: 3px solid #11abb0;
+   border-bottom: 3px solid var(--color-accent-2);
    padding-bottom: 6px;
 }
 
@@ -310,7 +324,7 @@ ul#nav li.current a {
 }
 
 #jobs .text-title {
-   color: #3f3f3f;
+   color: var(--color-dark-tone-1);
    font-size: 1em;
    border-bottom: 2px solid #9e9e9e;
 }
@@ -335,12 +349,12 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-   color: #11abb0;
+   color: var(--color-accent);
 }
 
 #resume a:hover,
 #resume a:focus {
-   color: #313131;
+   color: var(--color-base-tone-2);
 }
 
 #resume h1 {
@@ -350,7 +364,7 @@ ul#nav li.current a {
 }
 
 #resume h1 span {
-   border-bottom: 3px solid #11abb0;
+   border-bottom: 3px solid var(--color-accent);
    padding-bottom: 6px;
 }
 
@@ -431,7 +445,7 @@ ul#nav li.current a {
    top: 0;
    margin: 0;
    padding-right: 24px;
-   background: #313131;
+   background: var(--color-dark-tone-1);
    display: inline-block;
    height: 42px;
    line-height: 42px;
@@ -1058,10 +1072,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: linear-gradient(180deg, #232323, #0f0f0f);
+   background: linear-gradient(180deg, var(--color-dark-tone-1), var(--color-dark));
    padding-top: 104px;
    padding-bottom: 72px;
-   color: #89908f;
+   color: var(--color-light);
 }
 
 #contact .section-head {
@@ -1070,7 +1084,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-   color: #11abb0;
+   color: var(--color-accent);
 }
 
 #contact a:hover,
@@ -1149,7 +1163,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
    color: #fff;
-   background-color: #11abb0;
+   background-color: var(--color-accent);
 }
 
 #contact button.submit {
@@ -1171,14 +1185,14 @@ call-to-action .button {
 }
 
 #contact span.required {
-   color: #11abb0;
+   color: var(--color-accent);
    font-size: 13px;
 }
 
 #message-warning,
 #message-success {
    display: none;
-   background: #0f0f0f;
+   background: var(--color-dark);
    padding: 24px 24px;
    margin-bottom: 36px;
    width: 65%;
@@ -1190,7 +1204,7 @@ call-to-action .button {
 }
 
 #message-success {
-   color: #11abb0;
+   color: var(--color-accent);
 }
 
 #message-warning i,
@@ -1243,12 +1257,12 @@ footer {
 
 footer a,
 footer a:visited {
-   color: #525252;
+   color: var(--color-base);
 }
 
 footer a:hover,
 footer a:focus {
-   color: #fff;
+   color: var(--color-accent-3);
 }
 
 /* copyright */
@@ -1293,7 +1307,7 @@ footer .social-links li {
    margin: 0;
    padding: 0;
    margin-left: 42px;
-   color: #f06000;
+   color: var(--color-accent);
 }
 
 footer .social-links li:first-child {
@@ -1315,20 +1329,20 @@ footer .social-links li:first-child {
    display: block;
    width: 60px;
    height: 60px;
-   background-color: #525252;
+   background-color: var(--color-dark-tone-1);
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
    -o-transition: all 0.2s ease-in-out;
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
-   color: #fff;
+   color: var(--color-light);
    font-size: 21px;
    line-height: 60px;
    border-radius: 100%;
 }
 
 #go-top a:hover {
-   background-color: #0f9095;
+   background-color: var(--color-accent-3);
 }
 
 .stat-pills-container {
@@ -1337,11 +1351,21 @@ footer .social-links li:first-child {
 }
 
 .stat-pills-container .stat-pill {
-   width: 96px;
-   border: 1px solid #0d7e82;
+   width: 108px;
+   /* border-left: 4px solid var(--color-accent-2); */
+   border-bottom: 1px solid var(--color-accent-2);
+   padding-bottom: 3px;
    text-align: center;
    padding: 4px;
    margin: 4px;
    font-size: 0.9em;
-   border-radius: 18px;
+   cursor: pointer;
+}
+
+
+.stat-pills-container .stat-pill:hover {
+   border-bottom: 4px solid var(--color-accent-2);
+   padding-bottom: 0px;
+   /* color: var(--color-light);
+   background-color: var(--color-accent-2); */
 }
