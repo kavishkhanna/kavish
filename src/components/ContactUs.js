@@ -7,7 +7,7 @@ export default class ContactUs extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-                Tests whether in real life or programming, doesn't make us slow or weak. Instead they make path for us to become stronger and better than ever.
+                {resumeData.endnote}
               </p>
             </div>
           </div>

@@ -5,6 +5,7 @@ let resumeData = {
   "linkedinId": "https://www.linkedin.com/in/lakshayverma/",
   "skypeid": "lk7253",
   "roleDescription": "Working on with system designs and services using http ecosystem.",
+  "endnote": "Tests whether in real life or programming, doesn't make us slow or weak. Instead they make path for us to become stronger and better than ever.",
   "socialLinks": [
     {
       "id": 1,
