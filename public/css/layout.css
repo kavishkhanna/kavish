@@ -453,6 +453,13 @@ ul#nav li.current a {
    border-radius: 3px 0 0 3px;
 }
 
+.percent-40 {
+   width: 40%;
+   -moz-animation: percent-40 2s ease;
+   -webkit-animation: percent-40 2s ease;
+}
+
+
 .percent-55 {
    width: 55%;
    -moz-animation: percent-55 2s ease;
@@ -490,6 +497,16 @@ ul#nav li.current a {
 
    100% {
       width: 60%;
+   }
+}
+
+@-moz-keyframes percent-40 {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 40%;
    }
 }
 
@@ -550,6 +567,16 @@ ul#nav li.current a {
 
    100% {
       width: 55%;
+   }
+}
+
+@-webkit-keyframes percent-40 {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 40%;
    }
 }
 
