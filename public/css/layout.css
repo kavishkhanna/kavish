@@ -25,6 +25,7 @@
    --color-light: #fff3e7;
    --color-light-tone-1: #fffbf6;
    --color-dark: #0f0f0f;
+   --color-muted: #a1a1a1;
    --color-dark-tone-1: #091925;
    --color-base: #161415;
    --color-base-tone-1: #091925;
@@ -40,6 +41,10 @@
 body {
    background: var(--color-light);
    color: var(--color-dark);
+}
+
+.text-muted {
+   color: var(--color-muted) !important;
 }
 
 /* ------------------------------------------------------------------ */
