@@ -16,25 +16,25 @@ let resumeData = {
     {
       "id": 2,
       "name": "github",
-      "url": "http://github.com/lakshayverma",
+      "url": "https://github.com/lakshayverma",
       "className": "fa fa-github"
     },
     {
       "id": 3,
       "name": "twitter",
-      "url": "http://twitter.com/lakshay__verma",
+      "url": "https://twitter.com/lakshay__verma",
       "className": "fa fa-twitter"
     },
     {
       "id": 4,
       "name": "instagram",
-      "url": "http://instagram.com/lakshay__verma",
+      "url": "https://instagram.com/lakshay__verma",
       "className": "fa fa-instagram"
     },
     {
       "id": 5,
       "name": "blog",
-      "url": "http://blog.lakshay.dev",
+      "url": "https://vermalakshay.wordpress.com/",
       "className": "fa fa-edit"
     }
   ],
