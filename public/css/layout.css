@@ -336,6 +336,10 @@ ul#nav li.current a {
    padding-bottom: 12px;
 }
 
+#interests {
+   background-image: url('../images/interests.svg');
+}
+
 /* ------------------------------------------------------------------ */
 
 /* d. Resume Section
