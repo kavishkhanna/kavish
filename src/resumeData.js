@@ -48,7 +48,7 @@ let resumeData = {
       "specialization": "Masters in Computer Application",
       "MonthOfPassing": "Dec",
       "YearOfPassing": "2017",
-      "Achievements": "Unity Game Development"
+      "Achievements": "Web Technologies and 3d Game Development with Unity"
     },
     {
       "id": 3,
@@ -56,7 +56,7 @@ let resumeData = {
       "specialization": "Bachelors in Computer Application",
       "MonthOfPassing": "Jul",
       "YearOfPassing": "2014",
-      "Achievements": "Mobile Development"
+      "Achievements": "Mobile Application Development with Server Side Technologies"
     }
   ],
   "work": [
