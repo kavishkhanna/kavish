@@ -23,6 +23,7 @@
    --color-accent-2: #0d7e82;
    --color-accent-3: #0f9095;
    --color-light: #fff3e7;
+   --color-light-tone-1: #fffbf6;
    --color-dark: #0f0f0f;
    --color-dark-tone-1: #091925;
    --color-base: #161415;
@@ -844,8 +845,8 @@ call-to-action .button {
 
 #call-to-action .button:hover,
 #call-to-action .button:active {
-   background: #ffffff;
-   color: #0d0d0d;
+   background: var(--color-light);
+   color: var(--color-base-tone-2);
 }
 
 #call-to-action p span {
@@ -863,7 +864,7 @@ call-to-action .button {
    -webkit-background-size: cover !important;
    background-attachment: fixed;
    position: relative;
-   min-height: 480px;
+   /* min-height: 140px; */
    width: 100%;
    overflow: hidden;
 }
@@ -1073,8 +1074,8 @@ call-to-action .button {
 
 #contact {
    background: linear-gradient(180deg, var(--color-dark-tone-1), var(--color-dark));
-   padding-top: 104px;
-   padding-bottom: 72px;
+   /* padding-top: 104px; */
+   padding-bottom: 36px;
    color: var(--color-light);
 }
 
@@ -1249,7 +1250,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: var(--color-base);
    font-size: 14px;
    text-align: center;
    position: relative;
@@ -1287,7 +1288,7 @@ footer .copyright li:before {
    content: "\2022";
    padding-left: 10px;
    padding-right: 10px;
-   color: #095153;
+   color: var(--color-base-tone-2);
 }
 
 footer .copyright li:first-child:before {
