@@ -108,26 +108,50 @@ let resumeData = {
     },
     {
       "id": 3,
-      "skillname": "Android",
-      "percent": "55",
-      "level": "moderate"
-    },
-    {
-      "id": 4,
-      "skillname": "Java",
-      "percent": "60",
-      "level": "moderate"
+      "skillname": "HTML + CSS",
+      "percent": "90",
+      "level": "high"
     },
     {
       "id": 5,
       "skillname": "JavaScript",
       "percent": "60",
-      "level": "moderate"
+      "level": "intermediate"
     },
     {
       "id": 6,
-      "skillname": "Adobe Photoshop",
+      "skillname": "Java",
       "percent": "60",
+      "level": "moderate"
+    },
+    {
+      "id": 7,
+      "skillname": "GIT",
+      "percent": "80",
+      "level": "moderate"
+    },
+    {
+      "id": 8,
+      "skillname": "Server Management",
+      "percent": "60",
+      "level": "moderate"
+    },
+    {
+      "id": 9,
+      "skillname": "CI/CD",
+      "percent": "60",
+      "level": "moderate"
+    },
+    {
+      "id": 10,
+      "skillname": "Adobe Photoshop",
+      "percent": "55",
+      "level": "moderate"
+    },
+    {
+      "id": 11,
+      "skillname": "Android",
+      "percent": "40",
       "level": "moderate"
     }
   ],
