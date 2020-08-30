@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 export default class Job extends Component {
   render() {
-    const { resumeData } = this.props;
+    const { id = "jobs", items = [], description = "" } = this.props;
     return (
-      <section id="jobs">
+      <section id={id}>
         <div className="row portfolio">
           <div className="three columns header-col">
             <h1>
@@ -13,9 +13,9 @@ export default class Job extends Component {
 
           <div className="nine columns main-col">
             <div className="nine columns main-col">
-              <p className="text-title">{resumeData.portfolioDescription}</p>
-              {resumeData.portfolio &&
-                resumeData.portfolio.map(item => {
+              <p className="text-title">{description}</p>
+              {items &&
+                items.map(item => {
                   return (
                     <div className="row item" key={item.id}>
                       <div className="twelve columns">
