@@ -1,10 +1,10 @@
 let resumeData = {
   "imagebaseurl": "https://lakshay.dev/",
   "name": "Lakshay Verma",
-  "role": "Software Engineer",
+  "role": "Web Ninja",
   "linkedinId": "https://www.linkedin.com/in/lakshayverma/",
   "skypeid": "lk7253",
-  "roleDescription": "Working on with database designs and services using Laravel and its ecosystem. Also tweaking websites is a hobby when not on a mission to mars.",
+  "roleDescription": "Working on with system designs and services using http ecosystem.",
   "socialLinks": [
     {
       "id": 1,
